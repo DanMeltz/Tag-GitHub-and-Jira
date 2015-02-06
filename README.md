@@ -19,6 +19,7 @@ Flags:
     -b Set the origin BRANCH, you can use this OR the origin tag, not both
     -p Set the project
     -s Set the Status (status field in Jira)
+```
 
 It also calls a PHP script in order to tag any issues in Jira ("on demand" Jira) that are in a specified project and in a specified status (or column, if you're using Agile methodologies) with the same tag. The PHP script was written by Evan Frohlich <evan.frohlich@controlgroup.com>
 
