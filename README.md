@@ -9,9 +9,11 @@ This is all because of the branching model we're using, (I didn't come up with i
 This script will create new tags in multiple repos, but you need to specify the repos by their path. I found it worked using ~/path/to/repo but if you have problems you may want to try using fully qualified paths. It also allows for you to not only tag a spedific branch (which we use for tagging repos in order to QA them) but you can, instead, tag based on an existing tag. We use this to add a "Production" tag to a an existing QA tag that has been tested and passed.
 
 Example:
+
 ``` ./tag-multiple-repos.sh -o tag_prefix -p project_name -b existing_branch /path/to/repo1 /path/for/repo2 /path/leading/to/repo3 
 
 Flags:
+
     -o Set the tag prefix
     -t Set the origin TAG, you can use this OR the origin branch, not both
     -b Set the origin BRANCH, you can use this OR the origin tag, not both
