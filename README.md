@@ -10,7 +10,8 @@ This script will create new tags in multiple repos, but you need to specify the 
 
 Example:
 
-``` ./tag-multiple-repos.sh -o tag_prefix -p project_name -b existing_branch /path/to/repo1 /path/for/repo2 /path/leading/to/repo3 
+``` 
+./tag-multiple-repos.sh -o tag_prefix -p project_name -b existing_branch /path/to/repo1 /path/for/repo2 /path/leading/to/repo3 
 
 Flags:
 
